@@ -27,7 +27,7 @@ const SignIn = (props) => {
                 leftIcon={
                   <FontAwesome name="envelope" size={24} color="black" />
                 }
-                placeholder="Phone number"
+                placeholder="Email"
                 onChangeText={function (currentInput) {
                   setEmail(currentInput);
                 }}

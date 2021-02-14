@@ -15,6 +15,7 @@ import SignIn from './src/SignIn';
 import SignUp from './src/SignUp';
 import {AuthContext,AuthProvider} from './provider/AuthProvider';
 import SearchHome from './src/SearchHome';
+import AddHome from './src/AddHome';
 
 
 
@@ -79,6 +80,7 @@ const ProfileSignInStackScreen=()=>{
     <ProfileSignInStack.Navigator>
       <ProfileSignInStack.Screen name="Profile" component={Profile}/>
       <ProfileSignInStack.Screen name="SignIn" component={SignIn}/>
+      <ProfileSignInStack.Screen name="AddHome" component={AddHome}/>
     </ProfileSignInStack.Navigator>
   );
 }
